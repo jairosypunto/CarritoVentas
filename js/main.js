@@ -105,3 +105,33 @@ const productos = [
     
 
 ]
+
+
+// let edad = prompt("Ingrese su edad");
+// if (edad >= 18) {
+//     alert("Bienvenido al sitio web");
+// }else {
+//     alert("Lo siento, debes ser mayor de 18 años para acceder a este sitio web");
+//     window.location.href = "https://www.google.com";
+
+// }
+
+// let hora = prompt("Ingrese la hora actual (0-23)");
+// if (hora >= 9 && hora <= 18) {
+//     alert("Bienvenido al sitio web");
+// }else {
+//     alert("Lo siento, el sitio web está disponible solo de 9 a 18 horas");
+//     window.location.href = "https://www.google.com";
+// }   
+
+let user = "jairos";
+let password = 1234;
+let nombre = prompt("Ingrese su nombre");
+user = prompt("Ingrese su usuario");
+password = parseInt(prompt("Ingrese su contraseña"));
+if (user === "jairos" && password === 1234) {
+    alert("Bienvenido " + nombre + " al sitio web");
+}else {
+    alert("Lo siento, usuario o contraseña incorrectos");
+    window.location.href = "https://www.google.com";
+}
